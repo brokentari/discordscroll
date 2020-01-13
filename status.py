@@ -2,11 +2,11 @@ import requests
 import json
 import time
 
-token = json.loads(open("token.json").read())['token']
+token = "token here..."
 
 url = "https://discordapp.com/api/v6/users/@me/settings"
 
-s = "shooting nigs..."
+s = "insert text here..."
 
 headers = {
     "Authorization": "{}".format(token),
@@ -19,7 +19,6 @@ headers = {
     "Cache-Control": "no-cache",
     "Host": "discordapp.com",
     "Connection": "keep-alive",
-	"Referrer": "https://discordapp.com/channels/386075643990900737/386259864416157697"
 }
 
 while True:
